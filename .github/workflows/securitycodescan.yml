@@ -14,8 +14,9 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
-  schedule:
-    - cron: '24 2 * * 4'
+  # Disabled to reduce notifications for now.
+  # schedule:
+  #   - cron: '24 2 * * 4'
 
 jobs:
   SCS:
