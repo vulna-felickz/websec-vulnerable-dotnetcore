@@ -17,6 +17,7 @@ on:
   # Disabled to reduce notifications for now.
   # schedule:
   #   - cron: '24 2 * * 4'
+  workflow_dispatch:
 
 jobs:
   SCS:
